@@ -1,0 +1,29 @@
+/*
+ ============================================================================
+ Name        : assignement1.c1
+ Author      : Mariam Abdelmegid
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+	float a=1.20;
+	float b=2.45;
+	float c=0;
+	printf("enter two numbers\r\n :");
+	fflush(stdin); fflush(stdout);
+	scanf("%f%f",&a,&b);
+	c=b;
+	b=a;
+	a=c;
+	printf("value after swapping %f%f\r\n",a,b);
+
+
+
+}
