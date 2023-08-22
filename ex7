@@ -1,0 +1,26 @@
+/*
+ ============================================================================
+ Name        : assignement1.c1
+ Author      : Mariam Abdelmegid
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+	int x=10;
+	int y=5;
+	printf(" two swap numbers:");
+	fflush(stdin); fflush(stdout);
+	x=x+y;
+	x=x-y;
+	y=x-y;
+	printf("after swapping %d \r\n %d",y,x);
+
+}
+
