@@ -1,0 +1,21 @@
+/*
+ ============================================================================
+ Name        : assignement1.c1
+ Author      : Mariam Abdelmegid
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+	char c;
+	printf("enter a character :");
+	fflush(stdin); fflush(stdout);
+	scanf("%c",&c);
+	printf("ASCII value is %c=%d",c,c);
+}
